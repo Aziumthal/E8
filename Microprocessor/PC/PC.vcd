@@ -1,0 +1,114 @@
+$date
+	Sat Oct 24 14:59:31 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ProgramCounter_tb $end
+$var wire 16 ! bus [15:0] $end
+$var reg 1 " PCDir $end
+$var reg 1 # PCIN $end
+$var reg 1 $ PCOUT $end
+$var reg 1 % PCUOD $end
+$var reg 1 & busen $end
+$var reg 16 ' busval [15:0] $end
+$var reg 1 ( clk $end
+$var reg 1 ) reset $end
+$scope module pc_test $end
+$var wire 1 " PCDir $end
+$var wire 1 # PCIN $end
+$var wire 1 $ PCOUT $end
+$var wire 1 % PCUOD $end
+$var wire 16 * TAddress [15:0] $end
+$var wire 16 + bus [15:0] $end
+$var wire 1 ( clk $end
+$var wire 1 ) reset $end
+$var wire 1 , gclk $end
+$var reg 16 - PC [15:0] $end
+$scope module cg $end
+$var wire 1 ( clk $end
+$var wire 1 # en $end
+$var wire 1 , gclk $end
+$var reg 1 . en1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0.
+b0 -
+0,
+bz +
+b0 *
+0)
+0(
+b0 '
+0&
+0%
+0$
+0#
+0"
+bz !
+$end
+#5000
+1(
+#10000
+0(
+#11000
+1.
+b101 !
+b101 +
+1#
+b101 '
+1&
+1)
+#15000
+b101 *
+b101 -
+1,
+1(
+#16000
+bz !
+bz +
+1%
+1"
+0&
+#20000
+0,
+0(
+#25000
+b110 *
+b110 -
+1,
+1(
+#30000
+0,
+0(
+#35000
+b111 *
+b111 -
+1,
+1(
+#36000
+0%
+#40000
+0,
+0(
+#45000
+b110 *
+b110 -
+1,
+1(
+#46000
+b110 !
+b110 +
+1$
+0#
+#47000
